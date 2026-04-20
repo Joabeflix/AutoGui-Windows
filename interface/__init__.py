@@ -1,0 +1,1 @@
+"""Camada da interface grafica."""

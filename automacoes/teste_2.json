@@ -1,0 +1,40 @@
+{
+  "nome": "teste_2",
+  "configuracao": {
+    "pausa_global": 0.3,
+    "fail_safe": true,
+    "pausa_inicial": 3.0,
+    "executar_em_loop": false
+  },
+  "comandos": [
+    {
+      "acao": "clicar",
+      "x": 1807,
+      "y": 14,
+      "esperar_apos": 0.0
+    },
+    {
+      "acao": "duplo_clique",
+      "x": 565,
+      "y": 44,
+      "esperar_apos": 2.0
+    },
+    {
+      "acao": "clicar",
+      "x": 1422,
+      "y": 65,
+      "esperar_apos": 0.2
+    },
+    {
+      "acao": "escrever",
+      "texto": "need for",
+      "esperar_apos": 0.5
+    },
+    {
+      "acao": "duplo_clique",
+      "x": 89,
+      "y": 200,
+      "esperar_apos": 0.0
+    }
+  ]
+}

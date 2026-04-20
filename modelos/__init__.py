@@ -1,0 +1,1 @@
+"""Modelos centrais da aplicacao."""

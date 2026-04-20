@@ -1,0 +1,40 @@
+{
+  "nome": "Exemplo com mouse",
+  "configuracao": {
+    "pausa_global": 0.2,
+    "fail_safe": true,
+    "pausa_inicial": 5,
+    "executar_em_loop": true
+  },
+  "comandos": [
+    {
+      "acao": "mover_mouse",
+      "x": 600,
+      "y": 300,
+      "duracao": 0.5,
+      "esperar_apos": 0.5
+    },
+    {
+      "acao": "clicar",
+      "x": 600,
+      "y": 300,
+      "esperar_apos": 1
+    },
+    {
+      "acao": "rolar",
+      "quantidade": -500,
+      "esperar_apos": 0.5
+    },
+    {
+      "acao": "esperar",
+      "segundos": 2,
+      "esperar_apos": 0
+    },
+    {
+      "acao": "duplo_clique",
+      "x": 600,
+      "y": 300,
+      "esperar_apos": 1
+    }
+  ]
+}

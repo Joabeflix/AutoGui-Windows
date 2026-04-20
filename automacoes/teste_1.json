@@ -1,0 +1,23 @@
+{
+  "nome": "teste_1",
+  "configuracao": {
+    "pausa_global": 0.3,
+    "fail_safe": true,
+    "pausa_inicial": 10.0,
+    "executar_em_loop": true
+  },
+  "comandos": [
+    {
+      "acao": "pressionar",
+      "tecla": "home",
+      "quantidade": 1,
+      "esperar_apos": 6.0
+    },
+    {
+      "acao": "pressionar",
+      "tecla": "end",
+      "quantidade": 1,
+      "esperar_apos": 6.0
+    }
+  ]
+}

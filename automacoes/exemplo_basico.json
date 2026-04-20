@@ -1,0 +1,35 @@
+{
+  "nome": "Exemplo basico",
+  "configuracao": {
+    "pausa_global": 0.3,
+    "fail_safe": true,
+    "pausa_inicial": 3,
+    "executar_em_loop": false
+  },
+  "comandos": [
+    {
+      "acao": "escrever",
+      "texto": "Bom dia",
+      "esperar_apos": 1
+    },
+    {
+      "acao": "pressionar",
+      "tecla": "tab",
+      "quantidade": 1,
+      "esperar_apos": 0.5
+    },
+    {
+      "acao": "escrever",
+      "texto": "Teste de automacao",
+      "esperar_apos": 1
+    },
+    {
+      "acao": "atalho",
+      "teclas": [
+        "ctrl",
+        "s"
+      ],
+      "esperar_apos": 1
+    }
+  ]
+}
