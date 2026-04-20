@@ -5,7 +5,7 @@ Sistema desktop em Python para montar, salvar e executar automacoes do `pyautogu
 ## Estrutura
 
 ```text
-auto_f5_tela_pedido/
+AutoGui Windows/
 |-- automacao/
 |-- automacoes/
 |-- interface/
